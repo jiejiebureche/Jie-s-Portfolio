@@ -1,15 +1,51 @@
 // import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
-  ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const softSkills = [
+  "Analytical Thinking",
+  "Attention to Detail",
+  "Leadership",
+  "Time Management",
+  "Team Player"
+];
+
+  const coreSkills = [
+  "Machine Learning",
+  "Neural Networks",
+  "Deep Learning",
+  "Software Engineering",
+  "Cybersecurity Basics"
+];
+
+  const frontendSkills = [
+  "HTML",
+  "CSS",
+  "Tailwind CSS",
+  "Flutter",
+  "AppSheet",
+  "Looker Studio",
+  "Figma",
+  "Tkinter"
+];
+
+  const backendSkills = [
+  "Python",
+  "Java",
+  "C++",
+  "C",
+  "PHP",
+  "Dart",
+  "Flask",
+  "Django",
+  "Laravel",
+  "Livewire",
+  "MySQL",
+  "Google Apps Script",
+  "Git",
+  "Javascript",
+  "React"
+];
 
   return (
     <section
@@ -25,7 +61,7 @@ export const About = () => {
 
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gray-300 mb-6">
-            Computer Science dergraduate with hands-on experience in Machine
+            Computer Science graduate with hands-on experience in Machine
             Learning, UI/UX, and full-stack web/app development. Recognized with
             Best Abstract Award at an international research conference. Strong
             foundation in GRU based Speech Emotion Recognition, AppSheet
@@ -34,12 +70,44 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> Core Skills</h3>
+              <div className="flex flex-wrap gap-2">
+                {coreSkills.map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> Soft Skills</h3>
+              <div className="flex flex-wrap gap-2">
+                {softSkills.map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {frontendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -57,7 +125,7 @@ export const About = () => {
                 {backendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
                     "
                   >
@@ -71,20 +139,18 @@ export const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+            <h3 className="text-xl font-bold mb-4"> Education </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
-                <strong> B.S. in Computer Science </strong> - XYZ University
-                (2016-2020)
+                <strong> Pamantasan ng Lungsod ng Maynila (2021-2025) </strong> - B.S Computer Science
               </li>
               <li>
-                Relevant Coursework: Data Structures, Web Development, Cloud
-                Computing...
+                <strong>Relevant Coursework:</strong> Data Structures, Web Development, Machine Learning, Cybersecurity, etc.
               </li>
             </ul>
           </div>
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+            <h3 className="text-xl font-bold mb-4"> Work Experience </h3>
             <div className="space-y-4 text-gray-300">
               <div>
                 <h4 className="font-semibold">

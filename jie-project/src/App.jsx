@@ -5,11 +5,12 @@ import { Navbar } from "./components/NavBar";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
-import SplashCursor from "./components/sections/SplashCursor";
-import DotGrid from "./components/sections/DotGrid";
-// import { Projects } from "./components/sections/Projects";
+// import SplashCursor from "./components/sections/SplashCursor";
+// import DotGrid from "./components/sections/DotGrid";
+import FavoriteSong from "./components/sections/FavoriteSong";
+import { Projects } from "./components/sections/Projects";
 import "./index.css";
-// import { Contact } from "./components/sections/Contact";
+import { Contact } from "./components/sections/Contact";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,10 +27,11 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
+        <FavoriteSong />
         <About />
-        <SplashCursor />
-        {/* <Projects />
-        <Contact /> */}
+        {/* <SplashCursor /> */}
+        <Projects />
+        <Contact />
       </div>
     </>
   );
