@@ -19,17 +19,17 @@ function App() {
 
   return (
     <>
-      {/* <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute inset-0">
           <Squares 
             speed={0.5} 
             squareSize={40}
             direction="diagonal"
-            borderColor="#fff"
+            borderColor="#301934"
             hoverFillColor="#222"
           />
         </div>
-      </div> */}
+      </div>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "}
       <div
         className={`min-h-screen transition-opacity duration-700 ${

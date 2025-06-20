@@ -59,7 +59,7 @@ export const About = () => {
           About Me
         </h2>
 
-        <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+        <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all bg-black/50">
           <p className="text-gray-300 mb-6">
             Computer Science graduate with hands-on experience in Machine
             Learning, UI/UX, and full-stack web/app development. Recognized with
@@ -68,14 +68,14 @@ export const About = () => {
             automation, and UI/UX prototyping using Flutter and Figma.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 z-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> Core Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {coreSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -91,7 +91,7 @@ export const About = () => {
                 {softSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -107,7 +107,7 @@ export const About = () => {
                 {frontendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -125,8 +125,8 @@ export const About = () => {
                 {backendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(127, 67, 181, 0.2)] transition
                     "
                   >
                     {tech}
@@ -138,7 +138,7 @@ export const About = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all bg-black/50">
             <h3 className="text-xl font-bold mb-4"> Education </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
@@ -149,7 +149,7 @@ export const About = () => {
               </li>
             </ul>
           </div>
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all bg-black/50">
             <h3 className="text-xl font-bold mb-4"> Work Experience </h3>
             <div className="space-y-4 text-gray-300">
               <div>
