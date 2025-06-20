@@ -1,51 +1,50 @@
 // import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-
   const softSkills = [
-  "Analytical Thinking",
-  "Attention to Detail",
-  "Leadership",
-  "Time Management",
-  "Team Player"
-];
+    "Analytical Thinking",
+    "Attention to Detail",
+    "Leadership",
+    "Time Management",
+    "Team Player",
+  ];
 
   const coreSkills = [
-  "Machine Learning",
-  "Neural Networks",
-  "Deep Learning",
-  "Software Engineering",
-  "Cybersecurity Basics"
-];
+    "Machine Learning",
+    "Neural Networks",
+    "Deep Learning",
+    "Software Engineering",
+    "Cybersecurity Basics",
+  ];
 
   const frontendSkills = [
-  "HTML",
-  "CSS",
-  "Tailwind CSS",
-  "Flutter",
-  "AppSheet",
-  "Looker Studio",
-  "Figma",
-  "Tkinter"
-];
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Flutter",
+    "AppSheet",
+    "Looker Studio",
+    "Figma",
+    "Tkinter",
+  ];
 
   const backendSkills = [
-  "Python",
-  "Java",
-  "C++",
-  "C",
-  "PHP",
-  "Dart",
-  "Flask",
-  "Django",
-  "Laravel",
-  "Livewire",
-  "MySQL",
-  "Google Apps Script",
-  "Git",
-  "Javascript",
-  "React"
-];
+    "Python",
+    "Java",
+    "C++",
+    "C",
+    "PHP",
+    "Dart",
+    "Flask",
+    "Django",
+    "Laravel",
+    "Livewire",
+    "MySQL",
+    "Google Apps Script",
+    "Git",
+    "Javascript",
+    "React",
+  ];
 
   return (
     <section
@@ -75,7 +74,7 @@ export const About = () => {
                 {coreSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -91,7 +90,7 @@ export const About = () => {
                 {softSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -107,7 +106,7 @@ export const About = () => {
                 {frontendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                    className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -116,8 +115,6 @@ export const About = () => {
                 ))}
               </div>
             </div>
-            
-            
 
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> Backend</h3>
@@ -142,10 +139,12 @@ export const About = () => {
             <h3 className="text-xl font-bold mb-4"> Education </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
-                <strong> Pamantasan ng Lungsod ng Maynila (2021-2025) </strong> - B.S Computer Science
+                <strong> Pamantasan ng Lungsod ng Maynila (2021-2025) </strong>{" "}
+                - B.S Computer Science
               </li>
               <li>
-                <strong>Relevant Coursework:</strong> Data Structures, Web Development, Machine Learning, Cybersecurity, etc.
+                <strong>National Teachers College (2019-2021)- </strong>{" "}
+                Science, Technology, Engineering and Mathematics (STEM)
               </li>
             </ul>
           </div>
@@ -155,24 +154,29 @@ export const About = () => {
               <div>
                 <h4 className="font-semibold">
                   {" "}
-                  Software Engineer at ABC Corp (2020 - Present){" "}
+                  IT Intern at Third Generation Holding Corporation (2024){" "}
                 </h4>
-                <p>
-                  Developed and maintained microservices for cloud-based
-                  applications.
-                </p>
+                <li>
+                  Designed and deployed dynamic dashboards and reports using
+                  AppSheet and Looker Studio, improving reporting efficiency.
+                </li>
+                <li>
+                  Automated document generation workflows via Google Sheets and
+                  Apps Script, reducing manual work by ~50%.
+                </li>
+                <li>
+                  Customized forms and backend workflows to streamline data
+                  input and retrieval processes.
+                </li>
+                <li> 
+                  Provided IT support for hardware/software
+                  troubleshooting and issue resolution across departments.
+                </li>
+                <li> 
+                  Conducted system evaluations and submitted structured defect
+                  reports to improve internal tools.</li>
               </div>
 
-              <div>
-                <h4 className="font-semibold">
-                  {" "}
-                  Intern at DEF Startups (2019){" "}
-                </h4>
-                <p>
-                  Assisted in building front-end components and integration REST
-                  APIs
-                </p>
-              </div>
             </div>
           </div>
         </div>
