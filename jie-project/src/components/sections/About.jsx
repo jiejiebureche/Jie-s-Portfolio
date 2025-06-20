@@ -68,7 +68,7 @@ export const About = () => {
             automation, and UI/UX prototyping using Flutter and Figma.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 z-10">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> Core Skills</h3>
               <div className="flex flex-wrap gap-2">
