@@ -17,7 +17,7 @@ export const Projects = () => {
               <h3 className="text-xl font-bold mb-2">
                 Enhancement of Gated Recurrent Unit for Speech Emotion
                 Recognition in the Implementation of Voice-Based Danger
-                Recognition System
+                Recognition System.
               </h3>
               <p className="text-gray-400 mb-4 text-justify">
                 This study identifies overfitting in GRU-based emotion models
