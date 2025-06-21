@@ -1,5 +1,6 @@
 //import { RevealOnScroll } from "../RevealOnScroll";
 import DecryptedText from "./DecryptedText";
+
 export const Home = () => {
   return (
     <section

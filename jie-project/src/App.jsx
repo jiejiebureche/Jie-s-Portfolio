@@ -21,8 +21,8 @@ function App() {
     <>
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute inset-0">
-          <Squares 
-            speed={0.5} 
+          <Squares
+            speed={0.5}
             squareSize={40}
             direction="diagonal"
             borderColor="#301934"
