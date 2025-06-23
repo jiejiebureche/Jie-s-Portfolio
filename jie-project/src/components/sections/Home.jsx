@@ -1,6 +1,7 @@
 //import { RevealOnScroll } from "../RevealOnScroll";
 import DecryptedText from "./DecryptedText";
 import profileImage from '../../assets/Jie-Pic.JPG';
+import pdf from '../../assets/Sepeda, Jayson C. - CV.pdf'; // Ensure this path is correct
 // adjust path if needed
 
 export const Home = () => {
@@ -45,12 +46,12 @@ export const Home = () => {
               View Projects
             </a>
             <a
-              href="#contact"
+              href={pdf}
               className="border border-purple-500/50 py-3 px-6 rounded font-medium transition-all duration-200 
               hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10
               text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-purple-100"
             >
-              Contact Me
+              Download My CV
             </a>
           </div>
         </div>
