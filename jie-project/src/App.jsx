@@ -39,9 +39,9 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="relative z-10">
-          <div className="fixed top-20 right-4 z-50">
+          {/* <div className="fixed top-20 right-4 z-50">
             <FavoriteSong />
-          </div>
+          </div> */}
 
           <Home />
           <About />

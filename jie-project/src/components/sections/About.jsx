@@ -67,7 +67,22 @@ export const About = () => {
               AppSheet automation, and UI/UX prototyping using Flutter and
               Figma.
             </p>
-
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4">My Favorite Track!</h3>
+                <div className="flex flex-wrap gap-2">
+                  <div style={{ maxWidth: "400px", margin: "0 auto",}} >
+                    <iframe
+                      style={{ borderRadius: "12px" }}
+                      src="https://open.spotify.com/embed/track/07LZPF6LzXu19GhVyqWF81?utm_source=generator&theme=0"
+                      width="100%"
+                      height="80"
+                      frameBorder="0"
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Core Skills</h3>
@@ -187,6 +202,22 @@ export const About = () => {
               </div>
             </div>
           </div>
+          {/* <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:border-purple-500/30  transition-all bg-black/50 gap-6 mt-8">
+            <div className="text-gray-300 font-bold mb-4 gap-4">
+              My Favorite Track
+              <div style={{ maxWidth: "400px", margin: "0 auto" }}>
+                <iframe
+                  style={{ borderRadius: "12px" }}
+                  src="https://open.spotify.com/embed/track/4JGKZS7h4Qa16gOU3oNETV?utm_source=generator&theme=0"
+                  width="100%"
+                  height="80"
+                  frameBorder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div> */}
         </div>
       </RevealOnScroll>
     </section>
