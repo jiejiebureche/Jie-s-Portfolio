@@ -1,6 +1,7 @@
 //import { RevealOnScroll } from "../RevealOnScroll";
 import DecryptedText from "./DecryptedText";
-import profileImage from "D:/GITHUB REPOS/Jie-s-Portfolio/jie-project/src/assets/Jie-Pic.JPG"; // adjust path if needed
+import profileImage from '../../assets/Jie-Pic.JPG';
+// adjust path if needed
 
 export const Home = () => {
   return (
