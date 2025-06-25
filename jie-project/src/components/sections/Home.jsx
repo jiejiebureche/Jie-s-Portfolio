@@ -40,16 +40,8 @@ export const Home = () => {
 
           <div className="flex justify-center md:justify-start space-x-4">
             <a
-              href="#projects"
-              className="bg-gradient-to-r from-purple-800 to-purple-300 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              View Projects
-            </a>
-            <a
               href={pdf}
-              className="border border-purple-500/50 py-3 px-6 rounded font-medium transition-all duration-200 
-              hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10
-              text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-purple-100"
+              className="bg-gradient-to-r from-purple-800 to-purple-300 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
             >
               Download My CV
             </a>
