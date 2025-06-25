@@ -1,7 +1,8 @@
 //import { RevealOnScroll } from "../RevealOnScroll";
 import DecryptedText from "./DecryptedText";
-import profileImage from '../../assets/Jie-Pic.JPG';
-import pdf from '../../assets/Sepeda, Jayson C. - CV.pdf'; // Ensure this path is correct
+import profileImage from "../../assets/Jie-Pic.JPG";
+import pdf from "../../assets/Sepeda, Jayson C. - CV.pdf"; // Ensure this path is correct
+import AnimatedContent from "./AnimatedContent"; // Adjust path if needed
 // adjust path if needed
 
 export const Home = () => {
@@ -13,11 +14,26 @@ export const Home = () => {
       {/* <RevealOnScroll> */}
       <div className="flex flex-col md:flex-row items-center justify-center text-left z-10 px-4 gap-8">
         {/* Profile Image */}
-        <img
-          src={profileImage}
-          alt="Jie Sepeda"
-          className="w-52 h-68 aspect-[4/3] rounded-xl overflow-hidden shadow-lg border-2 border-purple-800 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-transform transform hover:-translate-y-1"
-        />
+        <AnimatedContent
+          distance={150}
+          direction="horizontal"
+          reverse={true}
+          duration={1.2}
+          ease="bounce.out"
+          initialOpacity={0.2}
+          animateOpacity
+          scale={1.1}
+          threshold={0.2}
+          delay={3}
+        >
+          <div>
+            <img
+              src={profileImage}
+              alt="Jie Sepeda"
+              className="w-52 h-68 aspect-[4/3] rounded-xl overflow-hidden shadow-lg border-2 border-purple-800 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-transform transform hover:-translate-y-1"
+            />
+          </div>
+        </AnimatedContent>
 
         {/* Text Content */}
         <div className="text-center md:text-left">
