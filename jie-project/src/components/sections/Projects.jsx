@@ -74,7 +74,7 @@ export const Projects = () => {
                 of an AI assistant function.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TensorFlow", "D3.js", "Flask"].map(
+                {["Next.js", "React"].map(
                   (tech, key) => (
                     <span
                       key={key}
