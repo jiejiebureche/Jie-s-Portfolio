@@ -98,7 +98,7 @@ export const Certifications = () => {
           {/* Scrollable Certificate Cards */}
           <div
             ref={scrollRef}
-            className="w-full flex space-x-6 overflow-x-auto scrollbar-hide py-4 pl-12 pr-24"
+            className="w-full flex space-x-6 overflow-x-auto scrollbar-hide py-4 pl-5 pr-24"
           >
             {certifications.map((cert, index) => (
               <a
