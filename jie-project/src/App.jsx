@@ -11,6 +11,7 @@ import "./index.css";
 import { Contact } from "./components/sections/Contact";
 import SplashCursor from "./components/sections/SplashCursor";
 import Squares from "./components/sections/Squares";
+import { Certifications } from "./components/sections/Certificate";
 // import Aurora from "./components/sections/Aurora";
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <About />
           <SplashCursor />
           <Projects />
+          <Certifications />
           <Contact />
         </div>
       </div>
