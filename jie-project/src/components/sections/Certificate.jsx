@@ -5,10 +5,12 @@ import py1 from "../../assets/py1.png";
 import ibm from "../../assets/ibm.png";
 import cyess from "../../assets/cyess.png";
 import iness from "../../assets/iness.png";
+import istrel from "../../assets/istrel.jpg";
+import uijrt from "../../assets/uijrt.png";
 
 const certifications = [
   {
-    title: "Cybersecurity Essentials",
+    title: "CISCO: \n Cybersecurity Essentials",
     description:
       "An intermediate-level, self-paced course that explores core cybersecurity concepts such as threat analysis, network security, cryptography, and risk management. It builds practical skills in identifying and responding to cybersecurity threats, implementing security measures, and applying security principles in various IT environments.",
     skills: ["Cybersecurity", "Threat Analysis", "Risk Management"],
@@ -16,7 +18,7 @@ const certifications = [
     pdf: "https://drive.google.com/file/d/1voEGIlMVvEuc4HTr19xKhILqBh6g5W-t/view?usp=drive_link",
   },
   {
-    title: "Introduction to Cybersecurity Certificate",
+    title: "CISCO: \n Introduction to Cybersecurity Certificate",
     description:
       "A free, self-paced beginner-level course that provides a broad overview of cybersecurity. Topics include common threats and vulnerabilities, best practices for personal and organizational protection, and career insights in the field.",
     skills: ["Cybersecurity", "Best Practices", "Threat Awareness"],
@@ -24,7 +26,7 @@ const certifications = [
     pdf: "https://drive.google.com/file/d/1h30QzX4mDrRLZUs_guymm3rMjKZ_BCVQ/view?usp=drive_link",
   },
   {
-    title: "Python Essentials 1",
+    title: "CISCO: \n Python Essentials 1",
     description:
       "An introductory, self-paced course that teaches the basics of Python programming. It covers fundamental concepts like variables, data types, control structures, functions, and basic data structures, preparing learners for the PCEP certification. Ideal for beginners with no prior coding experience.",
     skills: ["Python", "Problem Solving", "PCEP Preparation"],
@@ -32,12 +34,28 @@ const certifications = [
     pdf: "https://drive.google.com/file/d/1_LVSBNnW0DGKSlqgwsKMO8JWY6DHEybJ/view?usp=sharing",
   },
   {
-    title: "Artificial Intelligence Fundamentals",
+    title: "IBM SkillsBuild: \n Artificial Intelligence Fundamentals",
     description:
       "Covered the core concepts of Artificial Intelligence, including machine learning, neural networks, and their real-world applications. Emphasized ethical considerations and the impact of AI across various industries.",
     skills: ["AI", "Machine Learning", "Ethical AI"],
     preview: ibm,
     pdf: "https://drive.google.com/file/d/1G9yBrnhXinj4Ca2qMfQYYY9132w5xe3G/view?usp=sharing",
+  },
+  {
+    title: "UIJRT: \n Certificate of Publication (Thesis)",
+    description:
+      "Our study, published in an international publication, identifies overfitting in GRU-based emotion models and effectively combats it using a trio of dropout (20%), batch normalization, and Xavier initialization—yielding a solid boost in performance.",
+    skills: ["AI", "Machine Learning", "Deep Learning"],
+    preview: uijrt,
+    pdf: "https://drive.google.com/file/d/1xLhLfsTR8EvhvSABVLVL03pkM6SXrRG7/view?usp=drive_link",
+  },
+  {
+    title: "ISTREL: \n Certificate of Presentation & Best Abstract Award(Thesis)",
+    description:
+      "Our study, presented at an international conference, explores innovative techniques in Machine/Deep Learning, particularly in the realm of emotion recognition. We received the Best Abstract Award for our findings.",
+    skills: ["AI", "Machine Learning", "Deep Learning"],
+    preview: istrel,
+    pdf: "https://drive.google.com/file/d/1szPrBj8gKe9ord0X0NR3WMQRXfctIvx0/view?usp=drive_link",
   },
   // Add more...
 ];
