@@ -26,6 +26,8 @@ export const About = () => {
     "Looker Studio",
     "Figma",
     "Tkinter",
+    "React",
+    "Vite"
   ];
 
   const backendSkills = [
@@ -43,7 +45,6 @@ export const About = () => {
     "Google Apps Script",
     "Git",
     "Javascript",
-    "React",
   ];
 
   return (
