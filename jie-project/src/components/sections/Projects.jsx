@@ -57,6 +57,94 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">
+                Voice-Based Danger Recognition System
+              </h3>
+              <p className="text-gray-400 mb-4 text-justify">
+                Voice-Based Danger Recognition System is a Web System created
+                for the study An Enhancement of Gated Recurrent Unit (GRU) for
+                Speech Emotion Recognition in the Implementation of Voice-Based
+                Danger Recognition System. This detects 6 classified emotions
+                namely: Sad, Happy, Anger, Disgust, Fear, and Neutral and
+                correlates the 'Fear' emotion to the state of danger.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "Flask",
+                  "Deep Learning",
+                  "Speech Emotion Recognition (SER)",
+                  "Gated Recurrent Units (GRU)",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-[#11071a] text-purple-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-purple-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://vbdrs.netlify.app"
+                  className="text-purple-500 hover:text-purple-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-purple-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">PLM Archive System</h3>
+              <p className="text-gray-400 mb-4 text-justify">
+                PLM Thesis Archive System is a web-based platform designed to
+                help students and faculty of Pamantasan ng Lungsod ng Maynila
+                (PLM) access, manage, and search thesis documents efficiently.
+                The system supports searching by title, author, course, and
+                year, and includes an admin dashboard for managing users and
+                submissions. Its goal is to provide a centralized and
+                user-friendly archive for academic research.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Python", "Django", "MySQL"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-[#11071a] text-purple-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-purple-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Gidsss/PLM-Thesis-Archive-System"
+                  className="text-purple-500 hover:text-purple-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
@@ -74,22 +162,20 @@ export const Projects = () => {
                 of an AI assistant function.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "React"].map(
-                  (tech, key) => (
-                    <span
-                      key={key}
-                      className="
+                {["Next.js", "React"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
                       bg-[#11071a] text-purple-500 py-1 px-3 
                       rounded-full text-sm
                       transition
                       hover:bg-purple-500/20 hover:-translate-y-0.5
                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
                     "
-                    >
-                      {tech}
-                    </span>
-                  )
-                )}
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
               <div className="flex justify-between items-center">
                 <a
@@ -169,7 +255,14 @@ export const Projects = () => {
                 the Orient."
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Flutter", "Dart", "Figma", "Android Studio", "Firebase", "Git/Github"].map((tech, key) => (
+                {[
+                  "Flutter",
+                  "Dart",
+                  "Figma",
+                  "Android Studio",
+                  "Firebase",
+                  "Git/Github",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -187,6 +280,57 @@ export const Projects = () => {
               <div className="flex justify-between items-center ">
                 <a
                   href="https://drive.google.com/file/d/1ghOzRmHdouIgStCcllpzWX090lWbuSsH/view?usp=sharing"
+                  className="text-purple-500 hover:text-purple-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">
+                PLM Mobile Application
+              </h3>
+              <p className="text-gray-400 mb-4 text-justify">
+                The PLM Mobile is the official mobile application of the
+                Pamantasan ng Lungsod ng Maynila. It is created and designed to
+                provide easy access to important information and transactions
+                for students, faculty, staff, and visitors. This application
+                aims to enhance the university experience by creating a system
+                to access various services and resources.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "Flutter",
+                  "Dart",
+                  "Figma",
+                  "Android Studio",
+                  "Firebase",
+                  "Git/Github",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-purple-500/10 text-purple-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-purple-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center ">
+                <a
+                  href="https://drive.google.com/file/d/1B7mDh6BEae5vgUrHR8pEnnUkOVWoiisO/view?usp=drive_link"
                   className="text-purple-500 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →

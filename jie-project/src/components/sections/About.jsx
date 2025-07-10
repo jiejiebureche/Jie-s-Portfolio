@@ -63,26 +63,26 @@ export const About = () => {
               Computer Science graduate with hands-on experience in Machine
               Learning, UI/UX, and full-stack web/app development. Recognized
               with Best Abstract Award at an international research conference.
-              Strong foundation in GRU based Speech Emotion Recognition,
-              AppSheet automation, and UI/UX prototyping using Flutter and
-              Figma.
+              Strong foundation in GRU based Speech Emotion Recognition, React
+              and Flask Web Development, AppSheet automation, and App
+              Development with UI/UX prototyping using Flutter and Figma.
             </p>
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">My Favorite Track!</h3>
-                <div className="flex flex-wrap gap-2">
-                  <div style={{ maxWidth: "400px", margin: "0 auto",}} >
-                    <iframe
-                      style={{ borderRadius: "12px" }}
-                      src="https://open.spotify.com/embed/track/07LZPF6LzXu19GhVyqWF81?utm_source=generator&theme=0"
-                      width="100%"
-                      height="80"
-                      frameBorder="0"
-                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                      loading="lazy"
-                    />
-                  </div>
+            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">My Favorite Track!</h3>
+              <div className="flex flex-wrap gap-2">
+                <div style={{ maxWidth: "400px", margin: "0 auto" }}>
+                  <iframe
+                    style={{ borderRadius: "12px" }}
+                    src="https://open.spotify.com/embed/track/07LZPF6LzXu19GhVyqWF81?utm_source=generator&theme=0"
+                    width="100%"
+                    height="80"
+                    frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  />
                 </div>
               </div>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Core Skills</h3>
@@ -173,12 +173,25 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    IT Intern at Third Generation Holding Corporation (2024){" "}
+                    Application Developer & IT Intern at Third Generation
+                    Holding Corporation (2024){" "}
                   </h4>
                   <div className="text-justify">
                     <li>
+                      Created an internal document request, retrieval, and form
+                      creation application using Google AppSheet, significantly
+                      reducing manual labor and streamlining operational
+                      processes.
+                    </li>
+                    <li>
+                      Spearheaded end-to-end application testing by distributing
+                      a test version across all company departments to validate
+                      functionality, gather feedback, and ensure alignment with
+                      operational needs.
+                    </li>
+                    <li>
                       Designed and deployed dynamic dashboards and reports using
-                      AppSheet and Looker Studio, improving reporting
+                      AppSheet and Looker Studio, improving internal reporting
                       efficiency.
                     </li>
                     <li>
