@@ -43,7 +43,7 @@ export const Home = () => {
             <Typewriter
               words={[
                 "Hi, I'm Jie Sepeda!",
-                "Full Stack Developer",
+                "Full Stack Dev.",
                 "Pls hire me :(",
               ]}
               loop={0} // 0 = don't loop, or set to `Infinity` to loop forever
