@@ -1,7 +1,7 @@
 //import { RevealOnScroll } from "../RevealOnScroll";
 import DecryptedText from "./DecryptedText";
 import profileImage from "../../assets/Jie-Pic.JPG";
-import pdf from "../../assets/Sepeda, Jayson C. - CV.pdf"; // Ensure this path is correct
+import pdf from "../../assets/Sepeda, Jayson C. - CV - 2025.pdf"; // Ensure this path is correct
 import AnimatedContent from "./AnimatedContent"; // Adjust path if needed
 import { Typewriter } from "react-simple-typewriter";
 
