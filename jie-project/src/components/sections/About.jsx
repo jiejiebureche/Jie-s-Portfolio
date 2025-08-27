@@ -2,49 +2,41 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const softSkills = [
+    "Problem Solving",
     "Analytical Thinking",
     "Attention to Detail",
-    "Leadership",
+    "Team Collaboration",
     "Time Management",
-    "Team Player",
+    "Quick Learner",
   ];
 
-  const coreSkills = [
-    "Machine Learning",
-    "Neural Networks",
-    "Deep Learning",
-    "Software Engineering",
-    "Cybersecurity Basics",
-  ];
-
-  const frontendSkills = [
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Flutter",
-    "AppSheet",
-    "Looker Studio",
-    "Figma",
-    "Tkinter",
-    "React",
-    "Vite"
-  ];
-
-  const backendSkills = [
-    "Python",
+  const progLang = [
     "Java",
-    "C++",
     "C",
+    "C++",
+    "Python",
     "PHP",
     "Dart",
-    "Flask",
+    "HTML",
+    "CSS",
+    "JavaScript",
+  ];
+
+  const appDev = [
+    "React",
     "Django",
     "Laravel",
-    "Livewire",
+    "Flask",
+    "Flutter",
+    "AppSheet",
     "MySQL",
+  ];
+
+  const entrepTools = [
+    "Looker Studio",
+    "Git/Github",
     "Google Apps Script",
-    "Git",
-    "Javascript",
+    "UNIX Shell (Basic)",
   ];
 
   return (
@@ -61,12 +53,15 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:border-purple-500/30  transition-all bg-black/50">
             <p className="text-gray-300 mb-6">
-              Computer Science graduate with hands-on experience in Machine
-              Learning, UI/UX, and full-stack web/app development. Recognized
-              with Best Abstract Award at an international research conference.
-              Strong foundation in GRU based Speech Emotion Recognition, React
-              and Flask Web Development, AppSheet automation, and App
-              Development with UI/UX prototyping using Flutter and Figma.
+              Computer Science student graduating October 2025 from Pamantasan
+              ng Lungsod ng Maynila, on track to graduate Magna Cum Laude, with
+              hands-on experience in application development, system design, and
+              programming across multiple languages (Java, C, C++, Python, PHP,
+              Dart). Skilled in delivering full-cycle software projects,
+              troubleshooting system issues, and optimizing workflows.
+              Recognized internationally for research in machine learning and
+              speech emotion recognition. Quick to adapt to new tech stacks
+              including enterprise platforms.
             </p>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">My Favorite Track!</h3>
@@ -86,9 +81,41 @@ export const About = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Core Skills</h3>
+                <h3 className="text-xl font-bold mb-4"> Programming Languages</h3>
                 <div className="flex flex-wrap gap-2">
-                  {coreSkills.map((tech, key) => (
+                  {progLang.map((tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                    "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4"> Application/Software Development</h3>
+                <div className="flex flex-wrap gap-2">
+                  {appDev.map((tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                    "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4"> Enterprise Tools</h3>
+                <div className="flex flex-wrap gap-2">
+                  {entrepTools.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
@@ -105,38 +132,6 @@ export const About = () => {
                 <h3 className="text-xl font-bold mb-4"> Soft Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {softSkills.map((tech, key) => (
-                    <span
-                      key={key}
-                      className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
-                    "
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
-                    <span
-                      key={key}
-                      className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
-                    "
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-[#11071a] text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
@@ -160,11 +155,11 @@ export const About = () => {
                     {" "}
                     Pamantasan ng Lungsod ng Maynila (2021-2025){" "}
                   </strong>{" "}
-                  - B.S Computer Science
+                  - B.S Computer Science (Magna Cum Laude)
                 </li>
                 <li>
                   <strong>National Teachers College (2019-2021)- </strong>{" "}
-                  Science, Technology, Engineering and Mathematics (STEM)
+                  Science, Technology, Engineering and Mathematics (With High Honors)
                 </li>
               </ul>
             </div>

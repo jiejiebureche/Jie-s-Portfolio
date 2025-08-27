@@ -44,7 +44,6 @@ export const Home = () => {
               words={[
                 "Hi, I'm Jie Sepeda!",
                 "Full Stack Dev.",
-                "Pls hire me :(",
               ]}
               loop={0} // 0 = don't loop, or set to `Infinity` to loop forever
               cursor
@@ -56,7 +55,7 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg">
-            A Computer Science Graduate from Pamantasan ng Lungsod ng Maynila
+            A Magna Cum Laude Computer Science Graduate from Pamantasan ng Lungsod ng Maynila
             focusing on Full Stack Development
           </p>
 
