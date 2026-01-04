@@ -12,6 +12,7 @@ export const About = () => {
 
   const progLang = [
     "Java",
+    "Groovy",
     "C",
     "C++",
     "Python",
@@ -28,13 +29,27 @@ export const About = () => {
     "Laravel",
     "Flask",
     "Flutter",
+    "Express",
+    "Spring Boot",
+    "Node",
     "AppSheet",
     "MySQL",
+    "MongoDB",
   ];
 
   const entrepTools = [
+    "Git/GitHub",
+    "Katalon Studio",
+    "Jira",
+    "Confluence",
+    "Salesforce",
+    "Bruno",
+    "Postman",
+    "Microsoft Dynamics 365",
+    "Azure Cosmos DB",
+    "DBeaver",
+    "Oracle",
     "Looker Studio",
-    "Git/Github",
     "Google Apps Script",
     "UNIX Shell (Basic)",
   ];
@@ -53,15 +68,14 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:border-purple-500/30  transition-all bg-black/50">
             <p className="text-gray-300 mb-6">
-              Computer Science student graduating October 2025 from Pamantasan
-              ng Lungsod ng Maynila, on track to graduate Magna Cum Laude, with
-              hands-on experience in application development, system design, and
-              programming across multiple languages (Java, C, C++, Python, PHP,
-              Dart). Skilled in delivering full-cycle software projects,
-              troubleshooting system issues, and optimizing workflows.
-              Recognized internationally for research in machine learning and
-              speech emotion recognition. Quick to adapt to new tech stacks
-              including enterprise platforms.
+              Magna Cum Laude Computer Science graduate with proven expertise in
+              Full-Stack Development (MERN, Flask/React). I possess hands-on
+              experience delivering full-cycle software projects , including
+              building scalable systems and engineering robust API endpoints. My
+              skills span the MERN stack, Flutter/Dart mobile development , and
+              an understanding of enterprise-level Quality Engineering ,
+              ensuring high-quality, testable code from architecture to
+              deployment.
             </p>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">My Favorite Track!</h3>
@@ -81,7 +95,10 @@ export const About = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Programming Languages</h3>
+                <h3 className="text-xl font-bold mb-4">
+                  {" "}
+                  Programming Languages
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {progLang.map((tech, key) => (
                     <span
@@ -97,7 +114,10 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Application/Software Development</h3>
+                <h3 className="text-xl font-bold mb-4">
+                  {" "}
+                  Application/Software Development
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {appDev.map((tech, key) => (
                     <span
@@ -159,20 +179,60 @@ export const About = () => {
                 </li>
                 <li>
                   <strong>National Teachers College (2019-2021)- </strong>{" "}
-                  Science, Technology, Engineering and Mathematics (With High Honors)
+                  Science, Technology, Engineering and Mathematics (With High
+                  Honors)
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-purple-500/30 transition-all bg-black/50">
               <h3 className="text-xl font-bold mb-4"> Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
+
+              <div className="space-y-8 text-gray-300">
+                {/* Quality Engineer Section */}
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Application Developer & IT Intern at Third Generation
-                    Holding Corporation (2024){" "}
+                  <h4 className="font-semibold mb-2">
+                    Quality Engineer Intern at Manulife (Sept 2025 – Dec 2025)
                   </h4>
-                  <div className="text-justify">
+                  <ul className="text-justify list-disc ml-5 space-y-1">
+                    <li>
+                      Completed an intensive Software Engineering training
+                      program covering modern web technologies including
+                      ReactJS, Apollo GraphQL, Node.js, REST APIs, and
+                      Agile-Scrum methodologies.
+                    </li>
+                    <li>
+                      Performed end-to-end manual and automation testing
+                      (UI/API) for the CWS KLO project using Katalon,
+                      Salesforce, Microsoft Dynamics 365, and Bruno.
+                    </li>
+                    <li>
+                      Developed and executed automated workflows using Groovy
+                      scripts to enhance testing efficiency and coverage.
+                    </li>
+                    <li>
+                      Managed the full defect tracking lifecycle using Jira and
+                      Confluence, ensuring all bugs were documented with
+                      detailed evidence according to QE standards.
+                    </li>
+                    <li>
+                      Interacted with Azure Cosmos DB and DBeaver for database
+                      validation and migration testing.
+                    </li>
+                    <li>
+                      Actively participated in Agile ceremonies, including daily
+                      stand-ups, sprint planning, and retrospectives, to ensure
+                      alignment with team goals.
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Application Developer Section */}
+                <div>
+                  <h4 className="font-semibold mb-2">
+                    Application Developer at Third Generation Holding
+                    Corporation (2024)
+                  </h4>
+                  <ul className="text-justify list-disc ml-5 space-y-1">
                     <li>
                       Created an internal document request, retrieval, and form
                       creation application using Google AppSheet, significantly
@@ -182,8 +242,7 @@ export const About = () => {
                     <li>
                       Spearheaded end-to-end application testing by distributing
                       a test version across all company departments to validate
-                      functionality, gather feedback, and ensure alignment with
-                      operational needs.
+                      functionality and gather feedback.
                     </li>
                     <li>
                       Designed and deployed dynamic dashboards and reports using
@@ -206,7 +265,7 @@ export const About = () => {
                       Conducted system evaluations and submitted structured
                       defect reports to improve internal tools.
                     </li>
-                  </div>
+                  </ul>
                 </div>
               </div>
             </div>

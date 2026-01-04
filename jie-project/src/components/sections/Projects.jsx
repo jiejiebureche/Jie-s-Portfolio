@@ -15,6 +15,52 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-black/50">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">
+                VAWC DeskHub: Digitalizing Barangay Abuse Report Workflows
+              </h3>
+              <p className="text-gray-400 mb-4 text-justify">
+                Developed a full-stack MERN platform designed to digitalize VAWC
+                Desk operations. The system enables victims to file detailed,
+                optionally anonymous reports securely from home, while providing
+                Barangay Agents with a dedicated dashboard to manage cases,
+                ensure data privacy, and provide real-time status updates to
+                complainants.
+              </p>
+
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "MongoDB",
+                  "Express",
+                  "React",
+                  "Node.js",
+                  "JWT & Bcrypt",
+                  "Full-Stack Development",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+          bg-[#11071a] text-purple-500 py-1 px-3 
+          rounded-full text-sm
+          transition
+          hover:bg-purple-500/20 hover:-translate-y-0.5
+          hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+        "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="#"
+                  className="text-purple-500 hover:text-purple-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">
                 Enhancement of Gated Recurrent Unit for Speech Emotion
                 Recognition in the Implementation of Voice-Based Danger
                 Recognition System.
@@ -294,9 +340,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">
-                PLM Mobile Application
-              </h3>
+              <h3 className="text-xl font-bold mb-2">PLM Mobile Application</h3>
               <p className="text-gray-400 mb-4 text-justify">
                 The PLM Mobile is the official mobile application of the
                 Pamantasan ng Lungsod ng Maynila. It is created and designed to

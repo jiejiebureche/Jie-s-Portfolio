@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import py1 from "../../assets/py1.png";
+import cs50Cert from "../../assets/CS50x - PNG.png";
 import ibm from "../../assets/ibm.png";
 import cyess from "../../assets/cyess.png";
 import iness from "../../assets/iness.png";
@@ -9,6 +10,14 @@ import istrel from "../../assets/istrel.jpg";
 import uijrt from "../../assets/uijrt.png";
 
 const certifications = [
+  {
+    title: "Harvard University: \n CS50x Introduction to Computer Science",
+    description:
+      "An intensive foundation in computer science and the art of programming. The course covers a broad range of topics including algorithms, data structures, resource management, security, software engineering, and web development. It involves completing ten rigorous problem sets and a comprehensive final project, utilizing languages such as C, Python, SQL, and JavaScript plus frameworks like Flask.",
+    skills: ["Algorithms", "Data Structures", "C", "Python", "SQL", "Flask"],
+    preview: cs50Cert, // Ensure this variable matches your asset import
+    pdf: "https://cs50.harvard.edu/certificates/1a7ec15f-403a-4ae5-a05b-8f07df420ec0",
+  },
   {
     title: "CISCO: \n Cybersecurity Essentials",
     description:
@@ -50,7 +59,8 @@ const certifications = [
     pdf: "https://drive.google.com/file/d/1xLhLfsTR8EvhvSABVLVL03pkM6SXrRG7/view?usp=drive_link",
   },
   {
-    title: "ISTREL: \n Certificate of Presentation & Best Abstract Award(Thesis)",
+    title:
+      "ISTREL: \n Certificate of Presentation & Best Abstract Award(Thesis)",
     description:
       "Our study, presented at an international conference, explores innovative techniques in Machine/Deep Learning, particularly in the realm of emotion recognition. We received the Best Abstract Award for our findings.",
     skills: ["AI", "Machine Learning", "Deep Learning"],
