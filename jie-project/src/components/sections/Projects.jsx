@@ -52,7 +52,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://vawcdeskhub.netlify.app/"
                   className="text-purple-500 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
